@@ -26,7 +26,12 @@ a {
   text-decoration: none;
   color: var(--color5);
 }
-
+main{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding:0.5rem;
+  width:100vw;
+}
 nav,
 nav>ul {
   display: flex;
