@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+Paleta de colores:  : #FC7300 , #1F8A70 , #00425A , #181823, #EFF5F5*/
+:root {
+  --color1: #FC7300;
+  --color2: #1F8A70;
+  --color3: #00425A;
+  --color4: #181823;
+  --color5: #EFF5F5;
+
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--color5);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color5);
+}
+
+nav,
+nav>ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  background-color: var(--color3);
+}
+
+nav>ul {
+  width: 95vw;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 1rem;
+  text-align: center;
+  color: var(--color5);
+  font-weight: bold;
+}
+
+header {
+  height: 50vh;
+  width: 100vw;
+  background-image: url(../img/aaron-burden-6jYoil2GhVk-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 4rem;
+  color: var(--color5);
+  font-weight: bold;
+  font-family: 'Belanosima', sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 95vw;
+  min-height: 100vh;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  padding: 2rem;
+}
+
+.section__title--h21 {
+  align-self: flex-start;
+  padding-bottom: 2rem;
+}
+
+.section__title--h22 {
+  align-self: flex-end;
+  padding-bottom: 2rem;
+}
+
+.section__content--div1,
+.section__content--div2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagenQuines {
+  background-image: url(../img/belinda-fewings-_CyyAj0QboY-unsplash.jpg);
+  width: 95%;
+  height: 18.75rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 1rem;
+  padding: 2rem;
+  border-radius: .3125rem;
+}
+
+.imagenPorque {
+  background-image: url(../img/md-mahdi-YlB73LDJlSU-unsplash.jpg);
+  width: 95%;
+  height: 18.75rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 1rem;
+  padding: 2rem;
+  border-radius: .3125rem;
+}
+
+.propuestas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: fit-content;
+}
+
+.octagon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+
+.octagon0,
+.octagon1,
+.octagon2,
+.octagon3,
+.octagon4,
+.octagon5,
+.octagon6,
+.octagon7,
+.octagon8,
+.octagon9 {
+  width: 11rem;
+  height: 11rem;
+  background-size: cover;
+  clip-path: polygon(31.3% 0%,
+      68.7% 0%,
+      100% 31.3%,
+      100% 68.7%,
+      68.7% 100%,
+      31.3% 100%,
+      0% 68.7%,
+      0% 31.3%);
+}
+
+.octagon0 {
+  background-image: url('../img/jesse-orrico-mse1vdzZXjA-unsplash.jpg');
+}
+
+.octagon1 {
+  background-image: url('../img/cdc-gsRi9cWCIB0-unsplash.jpg');
+}
+
+.octagon2 {
+  background-image: url('../img/mick-haupt-Htt30LUxpBY-unsplash.jpg');
+}
+
+.octagon3 {
+  background-image: url('../img/wes-hicks-MEL-jJnm7RQ-unsplash.jpg');
+}
+
+.octagon4 {
+  background-image: url('../img/greenforce-staffing-bYZn_C-RswQ-unsplash.jpg');
+}
+
+.octagon5 {
+  background-image: url('../img/nick-morrison-FHnnjk1Yj7Y-unsplash.jpg');
+}
+
+.octagon6 {
+  background-image: url('../img/md-mahdi-YlB73LDJlSU-unsplash.jpg');
+}
+
+.octagon7 {
+  background-image: url('../img/markus-spiske-AAz715reF9s-unsplash.jpg');
+}
+
+.octagon8 {
+  background-image: url('../img/jeswin-thomas-dfRrpfYD8Iw-unsplash.jpg');
+}
+
+.octagon9 {
+  background-image: url('../img/baim-hanif-pYWuOMhtc6k-unsplash.jpg');
+}
+
+.columnaNews article {
+  margin-bottom: 1.3rem;
+}
+
+footer {
+  background-color: var(--color2);
+  color: var(--color5);
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1.5rem;
+}
+
+.footer__title {
+  margin: 1rem 0rem;
+}
+
+#redes,
+#mapa,
+#contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 95%;
+}
+
+.footer__social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+
+.mapaUntref {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacto {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.contacto>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* pagina de contacto */
+#main2 {
+  background-image: url(../img/agence-olloweb-Z2ImfOCafFk-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+
+.formSection__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-radius: .5rem;
+}
+
+.formSection__fieldset {
+  margin-top: 2rem;
+  margin-bottom: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 80%;
+  height: fit-content;
+  padding: 2rem;
+  border-radius: .5rem;
+  border-color: var(--color5);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.formSection__label,
+.formSection__input,
+.formSection__textarea {
+  width: 100%;
+  background-color: transparent;
+  font-weight: bolder;
+}
+
+.formSection__label {
+  margin-bottom: 0.5rem;
+}
+
+.formSection__input,
+.formSection__textarea {
+  border-radius: .625rem;
+  margin-bottom: 1rem;
+  padding: 0.3rem;
+  border-color: var(--color5);
+}
+
+
+#submit {
+  width: 8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: .3125rem;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  border: var(--color1);
+  background-color: var(--color1);
+  color: var(--color5);
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+#submit:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/*fin pagina de contacto */
+
+/* Media queries */
+
+/* Pantallas pequeñas (móviles en landscape de menos de 576px) */
+@media (max-width: 576px) {
+  html {
+    font-size: 10px;
+  }
+
+  #mapa {
+    display: none;
+  }
+
+  .ocultar {
+    display: none;
+  }
+
+  #propuesta h2 {
+    margin-bottom: 2rem;
+  }
+
+  #ultimasnews h2 {
+    margin-bottom: 2rem;
+  }
+
+  .propuestas {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4rem;
+  }
+}
+
+/* Pantallas pequeñas (móviles en landscape de más de 576px) */
+@media (min-width: 576px) {
+  html {
+    font-size: 14px;
+  }
+
+  #mapa {
+    display: none;
+  }
+
+  .ocultar {
+    display: none;
+  }
+}
+
+/* Pantallas medianas (tablets de más de 768px) */
+
+
+/* Media Query: Pantallas medianas (tablets de más de 768px) */
+@media (min-width: 768px) {
+
+  /* Resto del código CSS */
+  html {
+    font-size: 16px;
+  }
+
+
+  .section__content--div1,
+  .section__content--div2 {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .section__article--artQuienes,
+  .section__article--artPorque {
+    width: 70%;
+  }
+
+  .imagenQuines,
+  .imagenPorque {
+    width: 30%;
+  }
+
+  .propuestas {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .columnaNews {
+    column-count: 2;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+
+  .footer__social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #redes,
+  #mapa,
+  #contacto {
+    margin-top: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .footer__contact-info {
+    text-align: left;
+  }
+
+  .imagenPorque,
+  .imagenQuines {
+    height: 18.75rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 1rem;
+    padding: 2rem;
+    border-radius: .3125rem;
+  }
+
+  .imagenQuines {
+    background-image: url(../img/senderismo.jpg);
+  }
+
+  .imagenPorque {
+    background-image: url(../img/rayuela.jpg);
+  }
+
+  #ultimah2 {
+    margin-bottom: 2rem;
+  }
+
+  .ocultar {
+    display: initial;
+  }
+}
+
+/* Pantallas grandes (desktops de más de 992px) */
+@media (min-width: 992px) {
+  html {
+    font-size: 18px;
+  }
+
+  .ocultar {
+    display: initial;
+  }
+
+
+}
+
+/* Pantallas muy grandes (desktops de más de 1200px) */
+@media (min-width: 1200px) {
+  html {
+    font-size: 20px;
+  }
+  
+  .columnaNews {
+    column-count: 3;
+  }
+}
