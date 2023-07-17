@@ -26,10 +26,15 @@ a {
   text-decoration: none;
   color: var(--color5);
 }
-main{
-  
-  padding:0.5rem;
-  width:100vw;
+
+.main {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+  padding:1rem;
 }
 nav,
 nav>ul {
@@ -76,15 +81,6 @@ h1 {
   font-family: 'Belanosima', sans-serif;
 }
 
-.main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 95vw;
-  min-height: 100vh;
-  padding:1rem;
-}
 
 section {
   display: flex;
@@ -136,12 +132,8 @@ section {
   padding: 2rem;
   border-radius: .3125rem;
 }
-.imagenQuines, .section__article--artPorque, .propuestas, #ultimasnews{
-  margin-right:-3rem;
-}
-.imagenQuines, .section__article--artPorque, .propuestas{
-  margin-left:1.5rem;
-}
+
+
 .propuestas {
   display: flex;
   flex-direction: row;
@@ -439,7 +431,12 @@ footer {
   .imagenPorque {
     width: 30%;
   }
-
+  .imagenQuines, .section__article--artPorque, .propuestas, #ultimasnews{
+    margin-right:-3rem;
+  }
+  .imagenQuines, .section__article--artPorque, .propuestas{
+    margin-left:1.5rem;
+  }
   .propuestas {
     flex-direction: row;
     justify-content: center;
