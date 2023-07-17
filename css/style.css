@@ -251,8 +251,10 @@ footer {
   align-items: center;
   width: 80%;
 }
-
-.mapaUntref {
+iframe {
+  overflow-clip-margin: content-box !important;
+  overflow: clip !important;
+}.mapaUntref {
   width: 80%;
   display: flex;
   flex-direction: row;
