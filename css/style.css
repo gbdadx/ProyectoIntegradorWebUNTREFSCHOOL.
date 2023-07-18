@@ -27,6 +27,39 @@ a {
   color: var(--color5);
 }
 
+/** boton scrollup */
+
+#myBtn {
+  /*scroll up button */
+  /*pone el boton en la esquina derecha inferior*/
+  display: none;
+  /*oculto*/
+  position: fixed;
+  bottom: 9.375rem;
+  right: 4rem;
+  /*lo mantiene por enicma de cualquier otro contenido*/
+  z-index: 100;
+  cursor: pointer;
+  padding: .9375rem;
+  background-color: transparent;
+  border:none;
+
+}
+#myBtn img{
+  width:6rem;
+  height: 6rem;
+  border:solid 1px lightblue;
+  padding:1rem;
+  border-radius: 3.125rem;
+
+}
+
+#myBtn img:hover {
+  background: rgba(255, 255, 255, .3);
+  backdrop-filter: blur(5px);
+  border: .0938rem solid rgba(209, 213, 219, 0.3);
+}
+/*fin boton scroll up */
 .main {
   display: flex;
   flex-direction:column;
@@ -254,7 +287,8 @@ footer {
 iframe {
   overflow-clip-margin: content-box !important;
   overflow: clip !important;
-}.mapaUntref {
+}
+.mapaUntref {
   width: 80%;
   display: flex;
   flex-direction: row;
