@@ -14,6 +14,7 @@ function scrollFunction() {
 
 // cuando el usuario clickea el boton, sube al top de la pagina
 function topFunction() {
+  
   document.body.scrollTop = 0; // para safari
   document.documentElement.scrollTop = 0; // oara  Chrome, Firefox, IE y Opera
 }

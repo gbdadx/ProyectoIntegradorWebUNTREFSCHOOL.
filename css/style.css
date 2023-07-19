@@ -36,7 +36,7 @@ a {
   /*oculto*/
   position: fixed;
   bottom: 9.375rem;
-  right: 4rem;
+  right: 2rem;
   /*lo mantiene por enicma de cualquier otro contenido*/
   z-index: 100;
   cursor: pointer;
@@ -397,7 +397,7 @@ iframe {
 /* Pantallas pequeñas (móviles en landscape de menos de 576px) */
 @media (max-width: 576px) {
   html {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   #mapa {
@@ -542,7 +542,7 @@ iframe {
 }
 
 /* Pantallas grandes (desktops de más de 992px) */
-@media (min-width: 992px) {
+@media (min-width> 992px) {
   html {
     font-size: 18px;
   }
@@ -555,7 +555,7 @@ iframe {
 }
 
 /* Pantallas muy grandes (desktops de más de 1200px) */
-@media (min-width: 1200px) {
+@media (width>1200px) {
   html {
     font-size: 20px;
   }
