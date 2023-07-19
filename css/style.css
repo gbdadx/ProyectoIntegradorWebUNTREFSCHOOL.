@@ -395,6 +395,10 @@ iframe {
 /* Media queries */
 
 /* Pantallas pequeñas (móviles en landscape de menos de 576px) */
+@media (max-width: 300px) {
+  html {
+    font-size: 10px;
+  }}
 @media (max-width: 576px) {
   html {
     font-size: 12px;
