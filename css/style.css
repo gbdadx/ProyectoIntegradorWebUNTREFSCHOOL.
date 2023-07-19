@@ -26,42 +26,6 @@ a {
   text-decoration: none;
   color: var(--color5);
 }
-
-/** boton scrollup */
-
-#myBtn {
-  /*scroll up button */
-  /*pone el boton en la esquina derecha inferior*/
-  display: none;
-  /*oculto*/
-  position: fixed;
-  bottom: 9.375rem;
-  right: 2rem;
-  /*lo mantiene por enicma de cualquier otro contenido*/
-  z-index: 100;
-  cursor: pointer;
-  padding: .9375rem;
-  background-color: transparent;
-  border: none;
-
-}
-
-#myBtn img {
-  width: 6rem;
-  height: 6rem;
-  border: solid 1px lightblue;
-  padding: 1rem;
-  border-radius: 3.125rem;
-
-}
-
-#myBtn img:hover {
-  background: rgba(255, 255, 255, .3);
-  backdrop-filter: blur(5px);
-  border: .0938rem solid rgba(209, 213, 219, 0.3);
-}
-
-/*fin boton scroll up */
 .main {
   display: flex;
   flex-direction: column;
@@ -70,7 +34,10 @@ a {
   width: 100vw;
   min-height: 100vh;
   padding: 1rem;
+
 }
+
+
 
 /* nav */
 ul {
@@ -161,14 +128,16 @@ section {
   width: 90%;
   padding: 2rem;
 }
-
+.quienes{
+  margin-top: 0%;
+}
 .section__title--h21 {
   align-self: flex-start;
   padding-bottom: 2rem;
 }
 
 .section__title--h22 {
-  align-self: flex-end;
+  align-self: center;
   padding-bottom: 2rem;
 }
 
