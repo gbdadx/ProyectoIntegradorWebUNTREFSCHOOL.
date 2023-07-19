@@ -76,7 +76,8 @@ a {
 ul {
   display: none;
 }
-nav{
+
+nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -84,7 +85,8 @@ nav{
   width: 100vw;
   background-color: var(--color3);
   letter-spacing: .2rem;
-  color:var(--color5);
+  color: var(--color5);
+  padding-right: 1rem;
 }
 
 nav>ul {
@@ -98,13 +100,13 @@ ul {
 input:checked~ul {
   display: block;
 }
+
 input {
   display: none;
 }
+
 .nav__label {
-  box-sizing: border-box;
   display: inline-block;
-  border: 1px solid black;
   border-radius: 5px;
   width: 30px;
   height: 30px;
@@ -113,19 +115,19 @@ input {
   text-align: center;
   user-select: none;
 }
+
 li {
   padding: 1rem;
   text-align: center;
-  color: var(--color5);
+  color: var(--color3);
   font-weight: bold;
 }
+
 .nav__item {
   display: block;
-  background-color: var(--color4);
+  background-color: var(--color3);
   margin: 0;
-  padding: 10px;
   list-style: none;
-  border-bottom: 1px solid grey;
 }
 
 
@@ -474,22 +476,21 @@ iframe {
 
 /* Pantallas pequeñas (móviles en landscape de más de 576px) */
 @media (min-width: 576px) {
-
-  nav input,
-  nav label {
-    display: none;
+  #nav .nav__list{/* para que forzosamente cierre la hamburguesa y la lista */
+    display:none;
   }
-
+  #nav .nav__list{
+    display:flex;
+  }
   html {
     font-size: 14px;
   }
-
-  ul {
-    display: initial;
+  .nav__checkbox,
+  .nav__label {
+    display: none;
   }
-
-  nav,
-  nav>ul {
+  
+  #nav, .nav__list {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
