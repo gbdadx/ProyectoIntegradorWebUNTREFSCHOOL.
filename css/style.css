@@ -97,23 +97,21 @@ ul {
   list-style-type: none;
 }
 
-input:checked~ul {
+.nav__checkbox:checked~ul {
   display: block;
 }
 
-input {
+.nav__checkbox {
   display: none;
 }
 
 .nav__label {
-  display: inline-block;
-  border-radius: 5px;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
+  width: 2rem;
+  height: 2rem;
   font-weight: bold;
-  text-align: center;
-  user-select: none;
+  user-select: none; 
+  padding-top: 0.25rem;
+ text-align: center;
 }
 
 li {
@@ -476,21 +474,26 @@ iframe {
 
 /* Pantallas pequeñas (móviles en landscape de más de 576px) */
 @media (min-width: 576px) {
-  #nav .nav__list{/* para que forzosamente cierre la hamburguesa y la lista */
-    display:none;
+  #nav .nav__list {
+    /* para que forzosamente cierre la hamburguesa y la lista */
+    display: none;
   }
-  #nav .nav__list{
-    display:flex;
+
+  #nav .nav__list {
+    display: flex;
   }
+
   html {
     font-size: 14px;
   }
+
   .nav__checkbox,
   .nav__label {
     display: none;
   }
-  
-  #nav, .nav__list {
+
+  #nav,
+  .nav__list {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
