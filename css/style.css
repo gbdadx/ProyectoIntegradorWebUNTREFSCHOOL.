@@ -74,8 +74,9 @@ ul {
 }
 
 .nav__label {
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   user-select: none;
   padding-top: 0.25rem;
