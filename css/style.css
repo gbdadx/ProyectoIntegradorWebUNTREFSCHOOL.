@@ -64,7 +64,9 @@ nav>ul {
 ul {
   list-style-type: none;
 }
-
+#nav{
+  padding-bottom: 1rem;
+}
 .nav__checkbox:checked~ul {
   display: block;
 }
