@@ -108,7 +108,7 @@ li {
 /* fin nav */
 /* inicio header */
 header {
-  height: 60vh;
+  height: 90vh;
   width: 100vw;
   background-image: url(../img/aaron-burden-6jYoil2GhVk-unsplash.jpg);
   background-position: center;
@@ -423,20 +423,38 @@ iframe {
 
 /* Media queries */
 
-/* Pantallas pequeñas (móviles en landscape de menos de 576px) */
+/* Pantallas pequeñas (móviles en landscape de menos de 320px) */
 @media (max-width: 320px) {
   html {
     font-size: 10px;
+  }
+
+  header {
+    height: 40vh;
+  }
+
+  h1 {
+    font-size: 3.5rem;
   }
 
   .formSection__fieldset {
     width: 98%;
   }
 }
-
+@media(with<450){
+  header {
+    height: 50vh;
+  }
+}
 @media (max-width: 576px) {
   html {
     font-size: 12px;
+  }
+  h1 {
+    font-size: 3.6rem;
+  }
+  header {
+    height: 60vh;
   }
 
   #mapa {
@@ -467,6 +485,10 @@ iframe {
 
 /* Pantallas pequeñas (móviles en landscape de más de 576px) */
 @media (min-width: 576px) {
+  header {
+    height: 70vh;
+  }
+
   #nav .nav__list {
     /* para que forzosamente cierre la hamburguesa y la lista */
     display: none;
@@ -515,6 +537,9 @@ iframe {
     font-size: 16px;
   }
 
+  header {
+    height: 80vh;
+  }
 
   .section__content--div1,
   .section__content--div2 {
@@ -619,6 +644,10 @@ iframe {
     font-size: 18px;
   }
 
+  header {
+    height: 90vh;
+  }
+
   .ocultar {
     display: initial;
   }
@@ -630,6 +659,10 @@ iframe {
 @media (width>1200px) {
   html {
     font-size: 20px;
+  }
+
+  header {
+    height: 100vh;
   }
 
   .columnaNews {
