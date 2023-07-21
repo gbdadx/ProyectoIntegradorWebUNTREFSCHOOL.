@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
   box-sizing: border-box;
 }
 
@@ -20,6 +21,7 @@ Paleta de colores:  : #FC7300 , #1F8A70 , #00425A , #181823, #EFF5F5*/
 body {
   font-family: 'Poppins', sans-serif;
   background-color: var(--color5);
+
 }
 
 a {
@@ -64,9 +66,11 @@ nav>ul {
 ul {
   list-style-type: none;
 }
-#nav{
+
+#nav {
   padding-bottom: 1rem;
 }
+
 .nav__checkbox:checked~ul {
   display: block;
 }
@@ -104,7 +108,7 @@ li {
 /* fin nav */
 /* inicio header */
 header {
-  height: 50vh;
+  height: 80vh;
   width: 100vw;
   background-image: url(../img/aaron-burden-6jYoil2GhVk-unsplash.jpg);
   background-position: center;
