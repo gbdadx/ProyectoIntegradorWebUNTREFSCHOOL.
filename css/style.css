@@ -576,9 +576,9 @@ iframe {
     align-items: center;
     flex-wrap: wrap;
   }
-
   .columnaNews {
     column-count: 2;
+    column-gap: 3rem;
   }
 
   footer {
@@ -667,5 +667,6 @@ iframe {
 
   .columnaNews {
     column-count: 3;
+    column-gap: 3rem;
   }
 }
