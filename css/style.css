@@ -110,7 +110,7 @@ li {
 header {
   height: 90vh;
   width: 100vw;
-  background-image: url(../img/aaron-burden-6jYoil2GhVk-unsplash.jpg);
+  background-image: url(../img/niñoLeyendoNaturaleza.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -169,7 +169,7 @@ section {
 }
 
 .imagenQuines {
-  background-image: url(../img/belinda-fewings-_CyyAj0QboY-unsplash.jpg);
+  background-image: url(../img/estudiandoMapa.jpg);
   width: 95%;
   height: 18.75rem;
   background-size: cover;
@@ -181,7 +181,7 @@ section {
 }
 
 .imagenPorque {
-  background-image: url(../img/md-mahdi-YlB73LDJlSU-unsplash.jpg);
+  background-image: url(../img/niñosDeporte.jpg);
   width: 95%;
   height: 18.75rem;
   background-size: cover;
@@ -234,43 +234,43 @@ section {
 }
 
 .octagon0 {
-  background-image: url('../img/jesse-orrico-mse1vdzZXjA-unsplash.jpg');
+  background-image: url('../img/aulaTradicional.jpg');
 }
 
 .octagon1 {
-  background-image: url('../img/cdc-gsRi9cWCIB0-unsplash.jpg');
+  background-image: url('../img/clase.jpg');
 }
 
 .octagon2 {
-  background-image: url('../img/mick-haupt-Htt30LUxpBY-unsplash.jpg');
+  background-image: url('../img/estudiandoMapa.jpg');
 }
 
 .octagon3 {
-  background-image: url('../img/wes-hicks-MEL-jJnm7RQ-unsplash.jpg');
+  background-image: url('../img/aulaMusica.jpg');
 }
 
 .octagon4 {
-  background-image: url('../img/greenforce-staffing-bYZn_C-RswQ-unsplash.jpg');
+  background-image: url('../img/artesPlasticas.jpg');
 }
 
 .octagon5 {
-  background-image: url('../img/nick-morrison-FHnnjk1Yj7Y-unsplash.jpg');
+  background-image: url('../img/niñoEscribiendo.jpg');
 }
 
 .octagon6 {
-  background-image: url('../img/md-mahdi-YlB73LDJlSU-unsplash.jpg');
+  background-image: url('../img/niñosDeporte.jpg');
 }
 
 .octagon7 {
-  background-image: url('../img/markus-spiske-AAz715reF9s-unsplash.jpg');
+  background-image: url('../img/teamDeportes.jpg');
 }
 
 .octagon8 {
-  background-image: url('../img/jeswin-thomas-dfRrpfYD8Iw-unsplash.jpg');
+  background-image: url('../img/escritorio.jpg');
 }
 
 .octagon9 {
-  background-image: url('../img/baim-hanif-pYWuOMhtc6k-unsplash.jpg');
+  background-image: url('../img/graduacion.jpg');
 }
 
 .columnaNews article {
@@ -345,7 +345,7 @@ iframe {
 
 /* pagina de contacto */
 #main2 {
-  background-image: url(../img/agence-olloweb-Z2ImfOCafFk-unsplash.jpg);
+  background-image: url(../img/lapicesCirculo.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -625,11 +625,11 @@ iframe {
   }
 
   .imagenQuines {
-    background-image: url(../img/senderismo.jpg);
+    background-image: url('../img/senderismo.jpg')!important;
   }
 
   .imagenPorque {
-    background-image: url(../img/rayuela.jpg);
+    background-image: url('../img/rayuela.jpg')!important;
   }
 
   #ultimah2 {
