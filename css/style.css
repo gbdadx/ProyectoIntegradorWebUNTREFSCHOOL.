@@ -670,6 +670,6 @@ iframe {
 
   .columnaNews {
     column-count: 3;
-    column-gap: 3rem;
+    column-gap: 4rem;
   }
 }
