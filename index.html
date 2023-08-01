@@ -6,14 +6,14 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="keywords" content="escuela, colegio, primaria, first school,  elementary school,  grade school,  Argentina, UNTREF" />
-    <meta name="author" content="Gabriela B. Diaz" />
-    <meta name="description" content="escuela primaria relacionada a la UNTREF (first school related to UNTREF)" />
+    <meta name="keywords"
+        content="escuela, colegio, primaria, first school,  elementary school,  grade school,  Argentina, UNTREF">
+    <meta name="author" content="Gabriela B. Diaz">
+    <meta name="description" content="escuela primaria relacionada a la UNTREF (first school related to UNTREF)">
     <meta name="robots" content="index, follow">
-    <meta name="copyright" content="Gabriela B. Diaz" />
+    <meta name="copyright" content="Gabriela B. Diaz">
     <title>UntrefSchool</title>
-    <link rel="shortcut icon" href="./img/lapices.png" style="width:2rem; height: 2rem;"
-        type="image/x-icon">
+    <link rel="shortcut icon" href="./img/lapices.png" style="width:2rem; height: 2rem;" type="image/x-icon">
 
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/cee4e31326.js" crossorigin="anonymous"></script>
@@ -39,10 +39,12 @@
     </header>
 
     <main class="main">
-        <h2 class="section__title section__title--h21"> <a href="#footer"><i class="fa-solid fa-angle-down"></i></a></h2>
+        <div class="section__title section__title--h21"> <a href="#footer"><i class="fa-solid fa-angle-down"></i></a>
+        </div>
 
         <section id="quienes" class="section">
-            <h2 class="section__title section__title--h21">Quienes somos &nbsp;  <a href="#nav"><i class="fa-solid fa-angle-up"></i></a></h2>
+            <h2 class="section__title section__title--h21">Quienes somos &nbsp; <a href="#nav"><i
+                        class="fa-solid fa-angle-up"></i></a></h2>
             <div class="section__content section__content--div1">
                 <article class="section__article section__article--artQuienes">
                     <p class="section__paragraph">Somos una escuela comprometida con la educación de calidad. Desde
@@ -53,13 +55,18 @@
                         fundamentales para formar ciudadanos comprometidos con su comunidad y capaces de enfrentar los
                         retos del mundo actual.</p>
                 </article>
-                <div class="section__image imagenQuines"></div>
+
+                <span class="section__image imagenQuines" role="img" aria-label="VIVENCIAS ">
+
+                </span>
+
             </div>
         </section>
         <section id="porque" class="section">
-            <h2 class="section__title section__title--h22">¿Por qué elegirnos?&nbsp;  <a href="#nav"><i class="fa-solid fa-angle-up"></i></a></h2>
+            <h2 class="section__title section__title--h22">¿Por qué elegirnos?&nbsp; <a href="#nav"><i
+                        class="fa-solid fa-angle-up"></i></a></h2>
             <div class="section__content  section__content--div2">
-                <div class="section__image imagenPorque"></div>
+                <span class="section__image imagenPorque" role="img" aria-label="EXPERIENCIAS"></span>
                 <article class="section__article section__article--artPorque">
                     <p class="section__paragraph">En nuestra escuela, creemos que cada alumno es único y especial. Por
                         eso, fomentamos la integración de los alumnos y respetamos sus individualidades. Además,
@@ -72,42 +79,49 @@
         </section>
 
         <section id="propuesta" class="section">
-            <h2 class="section__title">Propuesta educativa&nbsp;  <a href="#nav"><i class="fa-solid fa-angle-up"></i></a></h2>
+            <h2 class="section__title">Propuesta educativa&nbsp; <a href="#nav"><i class="fa-solid fa-angle-up"></i></a>
+            </h2>
             <div class="section__content propuestas">
+                <!-- por la complejidad del diseño del octagono la imagen no queda bien si la incorporo desde el html, y debo hacerlo desde 
+                    css. una solucuion parcial que encontre fue reemplazar los divs por span, y agregar el atributo role="img"
+                    y aria-label
+                -->
                 <div class="section__element octagon">
-                    <div class="section__element-inner octagon0"></div>
-                </div>
-                <div class="section__element octagon">
-                    <div class="section__element-inner octagon1"></div>
-                </div>
-                <div class="section__element octagon ocultar">
-                    <div class="section__element-inner octagon2"></div>
-                </div>
-                <div class="section__element octagon ocultar">
-                    <div class="section__element-inner octagon3"></div>
-                </div>
-                <div class="section__element octagon ocultar">
-                    <div class="section__element-inner octagon4"></div>
-                </div>
-                <div class="section__element octagon ocultar">
-                    <div class="section__element-inner octagon5"></div>
-                </div>
-                <div class="section__element octagon ocultar">
-                    <div class="section__element-inner octagon6"></div>
-                </div>
-                <div class="section__element octagon ocultar">
-                    <div class="section__element-inner octagon7"></div>
-                </div>
-                <div class="section__element octagon ocultar">
-                    <div class="section__element-inner octagon8"></div>
+                    <span class="section__element-inner octagon0" role="img" aria-label="aula tradicional "></span>
                 </div>
                 <div class="section__element octagon">
-                    <div class="section__element-inner octagon9"></div>
+                    <span class="section__element-inner octagon1" role="img" aria-label="clase "></span>
+
+                </div>
+                <div class="section__element octagon ocultar">
+                    <span class="section__element-inner octagon2" role="img" aria-label="estudiando mapa"></span>
+                </div>
+                <div class="section__element octagon ocultar">
+                    <span class="section__element-inner octagon3" role="img" aria-label="aula de musica "></span>
+                </div>
+                <div class="section__element octagon ocultar">
+                    <span class="section__element-inner octagon4" role="img" aria-label="artes plasticas "></span>
+                </div>
+                <div class="section__element octagon ocultar">
+                    <span class="section__element-inner octagon5" role="img" aria-label="niños escribiendo "></span>
+                </div>
+                <div class="section__element octagon ocultar">
+                    <span class="section__element-inner octagon6" role="img" aria-label="niños deporte "></span>
+                </div>
+                <div class="section__element octagon ocultar">
+                    <span class="section__element-inner octagon7" role="img" aria-label="team deportes "></span>
+                </div>
+                <div class="section__element octagon ocultar">
+                    <span class="section__element-inner octagon8" role="img" aria-label="escritorio"></span>
+                </div>
+                <div class="section__element octagon">
+                    <span class="section__element-inner octagon9" role="img" aria-label="graduacion"></span>
                 </div>
             </div>
         </section>
         <section id="ultimasnews" class="section">
-            <h2 id="ultimah2" class="section__title"> Últimas noticias.&nbsp;  <a href="#nav"><i class="fa-solid fa-angle-up"></i></a></h2>
+            <h2 id="ultimah2" class="section__title"> Últimas noticias.&nbsp; <a href="#nav"><i
+                        class="fa-solid fa-angle-up"></i></a></h2>
             <div class="section__content columnaNews">
                 <article class="section__article">
                     <h3 class="section__article-title">La integración de la tecnología en la educación primaria</h3>
@@ -142,10 +156,10 @@
                 </article>
             </div>
         </section>
-        <h2 class="section__title section__title--h21"><a href="#nav"><i class="fa-solid fa-angle-up"></i></a></h2>
+        <div class="section__title section__title--h21"><a href="#nav"><i class="fa-solid fa-angle-up"></i></a></div>
 
     </main>
-    
+
     <footer class="footer" id="footer">
         <div id="redes" class="footer__item ">
             <h2 class="footer__title">Redes sociales</h2>

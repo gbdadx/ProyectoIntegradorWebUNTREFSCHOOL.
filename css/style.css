@@ -146,10 +146,7 @@ section {
   color: var(--color2);
   font-size: 1rem;
 }
-.section__title{
-  align-self: center;
-  padding-bottom: 3rem;
-}
+
 .section__title--h21 {
   align-self: flex-start;
   padding-bottom: 2rem;
@@ -158,6 +155,12 @@ section {
 .section__title--h22 {
   align-self: flex-end;
   padding-bottom: 2rem;
+}
+
+div .section__title {
+  align-self: flex-start;
+  padding-bottom: 3rem;
+  margin-left: 3rem;
 }
 
 .section__content--div1,
@@ -235,6 +238,7 @@ section {
 
 .octagon0 {
   background-image: url('../img/aulaTradicional.jpg');
+
 }
 
 .octagon1 {
@@ -272,6 +276,7 @@ section {
 .octagon9 {
   background-image: url('../img/graduacion.jpg');
 }
+
 
 .columnaNews article {
   margin-bottom: 1.3rem;
@@ -440,22 +445,30 @@ iframe {
     font-size: 3.5rem;
   }
 
+  .ocultar {
+    display: none;
+  }
+
   .formSection__fieldset {
     width: 98%;
   }
 }
-@media(with<450){
+
+@media(with<450) {
   header {
     height: 50vh;
   }
 }
+
 @media (max-width: 576px) {
   html {
     font-size: 12px;
   }
+
   h1 {
     font-size: 3.6rem;
   }
+
   header {
     height: 60vh;
   }
@@ -579,6 +592,7 @@ iframe {
     align-items: center;
     flex-wrap: wrap;
   }
+
   .columnaNews {
     column-count: 2;
     column-gap: 3rem;
@@ -625,11 +639,11 @@ iframe {
   }
 
   .imagenQuines {
-    background-image: url('../img/senderismo.jpg')!important;
+    background-image: url('../img/senderismo.jpg') !important;
   }
 
   .imagenPorque {
-    background-image: url('../img/rayuela.jpg')!important;
+    background-image: url('../img/rayuela.jpg') !important;
   }
 
   #ultimah2 {
@@ -637,7 +651,7 @@ iframe {
   }
 
   .ocultar {
-    display: initial;
+    display: inherit;
   }
 }
 
